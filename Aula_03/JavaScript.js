@@ -38,7 +38,7 @@ else{
     alert("vc nao prosseguiu")
 }
 
-num3 = Number(prompt("digita a porra do numero krl: "))
+num3 = Number(prompt("digita o numero: "))
 alert("o dobro do seu numero é "+num3 * 2)
 
 
@@ -49,5 +49,6 @@ alert("o dobro do seu numero é "+num3 * 2)
 
 nome2 = prompt("digite  seu nome: ")
 idade2 = Number(prompt("digite sua idade: "))
+
 
 alert("ola "+nome2+"sua idade é "+idade2)
