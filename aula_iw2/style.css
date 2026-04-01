@@ -1,3 +1,13 @@
 hr{
     color: white;
 }
+
+.card{
+    background: linear-gradient(135deg, rgb(255, 255, 255), rgba(255, 0, 0, 0.877));
+    transition: all 5s ease;
+}
+
+.card:hover{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+    transition: all 5s ease;
+}

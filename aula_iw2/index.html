@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade avaliativa </title>
+    <link rel="stylesheet" href="style.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -12,7 +13,6 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <!-- css e js local -->
-    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 
@@ -21,154 +21,136 @@
     <h1 class="text-center " style="color: white;">Atividade avaliativa de IW-II</h1>
 
     <div class="row container text-center mx-auto">
-
+        <!-- PRIMEIRO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Par ou Impar</h5>
+                <p class="card-text">Função para verificar se um número é par ou ímpar.</p>
+                <button class="btn btn-primary" onclick="verificarParOuImpar()">Verificar</button>
             </div>
         </div>
+        <!-- SEGUNDO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Verificar Maior Idade</h5>
+                <p class="card-text">Função para verificar se uma pessoa é maior de idade.</p>
+                <button class="btn btn-primary" onclick="verificarMaioridade()">Verificar</button>
             </div>
         </div>
+        <!-- TERCEIRO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Contagem de 1 a 10</h5>
+                <p class="card-text">Função para contar de 1 a 10.</p>
+                <button class="btn btn-primary" onclick="contarAteDez()">Verificar</button>
             </div>
         </div>
     </div>
     <div class="row container text-center mx-auto mb-2">
+        <!-- QUARTO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Contagem regressiva</h5>
+                <p class="card-text">Função para contar de um número até zero.</p>
+                <button class="btn btn-primary" onclick="contagemRegressiva()">Verificar</button>
             </div>
         </div>
+        <!-- QUINTO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Tabuada</h5>
+                <p class="card-text">Função para calcular a tabuada de um número.</p>
+                <button class="btn btn-primary" onclick="gerarTabuada()">Verificar</button>
             </div>
         </div>
     </div>
     <hr>
     <div class="row container text-center mx-auto">
-
+        <!-- SEXTO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Somatório</h5>
+                <p class="card-text">Função para calcular o somatório de uma sequência de números.</p>
+                <button class="btn btn-primary" onclick="calcularSomatorio()">Verificar</button>
             </div>
         </div>
+        <!-- SÉTIMO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Número primo</h5>
+                <p class="card-text">Função para verificar se um número é primo.</p>
+                <button class="btn btn-primary" onclick="verificarPrimo()">Verificar</button>
             </div>
         </div>
+        <!-- OITAVO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Login simples</h5>
+                <p class="card-text">Função para realizar login simples com nome de usuário e senha.</p>
+                <button class="btn btn-primary" onclick="realizarLogin()">Verificar</button>
             </div>
         </div>
     </div>
     <div class="row container text-center mx-auto mb-2">
+        <!-- NONO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Soma de numeros positivos</h5>
+                <p class="card-text">Função para calcular a soma de uma sequência de números positivos.</p>
+                <button class="btn btn-primary" onclick="somarPositivos()">Verificar</button>
             </div>
         </div>
+        <!-- DÉCIMO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Advinhação</h5>
+                <p class="card-text">tente advinhar o número correto.</p>
+                <button class="btn btn-primary" onclick="jogoAdivinhacao()">Verificar</button>
             </div>
         </div>
     </div>
     <hr>
     <div class="row container text-center mx-auto">
-
+        <!-- DÉCIMO PRIMEIRO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Calcular fatorial</h5>
+                <p class="card-text">Função para calcular o fatorial de um número.</p>
+                <button class="btn btn-primary" onclick="calcularFatorial()">Verificar</button>
             </div>
         </div>
+        <!-- DÉCIMO SEGUNDO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Validação de nota</h5>
+                <p class="card-text">Função para validar uma nota de 0 a 10.</p>
+                <button class="btn btn-primary" onclick="validarNota()">Verificar</button>
             </div>
         </div>
+        <!-- DÉCIMO TERCEIRO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Média de notas</h5>
+                <p class="card-text">Função para calcular a média de uma sequência de notas.</p>
+                <button class="btn btn-primary" onclick="verificarAprovacao()">Verificar</button>
             </div>
         </div>
     </div>
     <div class="row container text-center mx-auto mb-2">
+        <!-- DÉCIMO QUARTO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Caixa eletrônico</h5>
+                <p class="card-text">Função para simular as operações de um caixa eletrônico.</p>
+                <button class="btn btn-primary" onclick="simularCaixaEletronico()">Verificar</button>
             </div>
         </div>
+        <!-- DÉCIMO QUINTO CARD -->
         <div class="card col m-2" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Numeros impares</h5>
+                <p class="card-text">Função para identificar números ímpares em uma sequência.</p>
+                <button class="btn btn-primary" onclick="listarImpares()">Verificar</button>
             </div>
         </div>
     </div>
