@@ -7,9 +7,9 @@ function verificarParOuImpar(num) {
     }
 
     if (num % 2 === 0) {
-        console.log("Este número é par");
+        alert("Este número é par");
     } else {
-        console.log("Este número é ímpar");
+        alert("Este número é ímpar");
     }
 }
 
@@ -22,9 +22,9 @@ function verificarMaioridade(idade) {
     }
 
     if (idade >= 18) {
-        console.log("Você é maior de idade!!");
+        alert("Você é maior de idade!!");
     } else {
-        console.log("Você é menor de idade!!");
+        alert("Você é menor de idade!!");
     }
 }
 
@@ -33,7 +33,7 @@ function contarAteDez() {
     alert("Contagem de 1 a 10");
 
     for (let i = 1; i <= 10; i++) {
-        console.log(i);
+        alert(i);
     }
 }
 
@@ -46,11 +46,11 @@ function contagemRegressiva(num1) {
     }
 
     while (num1 >= 0) {
-        console.log(num1);
+        alert(num1);
         num1--;
     }
 
-    console.log("Fim da contagem!");
+    alert("Fim da contagem!");
 }
 
 //5 - Tabuada
@@ -62,7 +62,7 @@ function gerarTabuada(numero) {
     }
 
     for (let i = 1; i <= 10; i++) {
-        console.log(`${numero} x ${i} = ${numero * i}`);
+        alert(`${numero} x ${i} = ${numero * i}`);
     }
 }
 
@@ -80,7 +80,7 @@ function calcularSomatorio(somat) {
         soma += i;
     }
 
-    console.log("A soma é: " + soma);
+    alert("A soma é: " + soma);
 }
 
 //7 - Número Primo
@@ -104,7 +104,7 @@ function verificarPrimo(numerop) {
         }
     }
 
-    console.log(primo ? "É primo" : "Não é primo");
+    alert(primo ? "É primo" : "Não é primo");
 }
 
 //8 - Login Simples
@@ -171,7 +171,7 @@ function calcularFatorial() {
         fatorial *= i;
     }
 
-    console.log("Fatorial:", fatorial);
+    alert("Fatorial:", fatorial);
 }
 
 //12 - Validação de nota
@@ -182,7 +182,7 @@ function validarNota() {
         let notav = Number(prompt("Digite uma nota entre 0 e 10:"));
 
         if (notav >= 0 && notav <= 10) {
-            console.log("Nota válida:", notav);
+            alert("Nota válida:", notav);
             break;
         } else {
             alert("Nota inválida!");
@@ -197,12 +197,12 @@ function verificarAprovacao() {
     let n3 = Number(prompt("Nota 3:"));
 
     let media = (n1 + n2 + n3) / 3;
-    console.log("Média:", media);
+    alert("Média:", media);
 
     if (media >= 7) {
-        console.log("Aprovado");
+        alert("Aprovado");
     } else {
-        console.log("Reprovado");
+        alert("Reprovado");
     }
 }
 
@@ -216,7 +216,7 @@ function simularCaixaEletronico() {
         valor %= nota;
 
         if (quantidade > 0) {
-            console.log(`${quantidade} nota(s) de ${nota}`);
+            alert(`${quantidade} nota(s) de ${nota}`);
         }
     });
 }
@@ -227,7 +227,7 @@ function listarImpares() {
 
     for (let i = 1; i <= limite; i++) {
         if (i % 2 !== 0) {
-            console.log(i);
+            alert(i);
         }
     }
 }
