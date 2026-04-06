@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom,rgb(23, 23, 141), black);
+}
+
+hr{
+    color: white;
+}
+
+.card{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(13, 13, 97));
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px) scale(0.95);
+
+}
+.titulo{
+    background-color: rgb(129, 101, 161);
+    width: 30%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+.titulo:hover{
+    transform: translateY(-5px) scale(1);
+    transition: 0.3s ease;
+}
+.fundinho{
+    background-color: rgba(255, 255, 255, 0.158);
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    margin-bottom: 40px;
+}
